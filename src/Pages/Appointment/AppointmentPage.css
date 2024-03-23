@@ -1,0 +1,72 @@
+.Appointment_ctn{
+    background-color: rgb(154, 195, 242);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.apt-input-box{
+    width: 95%;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.appointmentForm{
+    width: 500px;
+   margin-top: 50px;
+    padding: 10px 15px;
+}
+.appointmentForm h1{
+    text-align: center;
+}
+#details-box{
+    width: 98%;
+    height: 80px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#appointmentBtn{
+    background-image:linear-gradient(to bottom ,rgb(103, 172, 246),rgb(9, 46, 160));
+    border: none;
+    color:white;
+    padding:10px 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    
+}
+.btn_div{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:450px){
+    .appointmentForm{
+        width: 300px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .apt_image{
+        height: 370px;
+    }
+    .input-box{
+        width: 95%;
+        font-size: 16px;
+    }
+    #details-box{
+        font-size: 14px;
+    }
+    #appointmentBtn{
+        width: 70%;
+        padding:12px 15px;
+        font-size: 16px;
+    }
+}

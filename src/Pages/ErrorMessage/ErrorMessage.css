@@ -1,0 +1,44 @@
+.ctn{
+   padding-top: 70px;
+}
+.error-section{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.error-h1{
+    font-size: 200px;
+    width: 25%;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg,#00dbde,#fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.error-h4{
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0px;
+}
+.error-para{
+    font-size: 18px;
+
+}
+.error-btn-ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.return-homeBtn{
+    text-decoration: none;
+    border:2px solid rgb(54, 141, 233);
+    border-radius: 20px;
+    color: rgb(54, 141, 233);
+    font-family:sans-serif;
+    padding: 10px 15px;
+   
+}
+.return-homeBtn:hover{
+    background-color: rgb(54, 141, 233);
+    color: white;
+}

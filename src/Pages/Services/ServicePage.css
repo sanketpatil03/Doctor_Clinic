@@ -1,0 +1,72 @@
+.service-section{
+    background-color: rgb(195, 223, 255);
+    height: 250px;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-section h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.service-section hr{
+    border:2px solid rgb(149, 195, 245);
+    width: 100%;
+}
+
+.card-section{
+    margin-top: 70px;
+}
+.card_ctn1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.service_card{
+    width: 300px;
+    background-color: rgb(232, 243, 255);
+    align-items: center;    
+    text-align: center;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    z-index: 5px;
+    border: 0.5px solid rgb(108, 105, 105);
+    outline: none;
+}
+.service_btn{
+    background-color: rgb(77, 142, 239);
+    color:white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.serviceCard_logo{
+    width: 100px;
+    background-color: rgb(77, 142, 239);
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.service_card h1{
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 28px;
+  
+}
+
+@media (max-width:450px){
+    .service_card{
+        width: 250px;
+    }
+    .service_card h1{
+        font-size: 20px;
+    }
+}

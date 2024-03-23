@@ -1,0 +1,94 @@
+.contact_section{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.getintouch_details{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+.contactus_header h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+.contactus_header{
+    text-align: center;
+}
+.contactus_form{
+  background-color: rgb(195, 223, 255);
+  width: 500px;
+  text-align: left;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+  padding-bottom: 4 0px;
+}
+.contactus_form h3{
+    font-size: 25px;
+    padding: 5px;
+    margin: 0px;
+}
+.contactus_form p{
+    font-size: 18px;
+}
+.inputfield{
+    width: 95%;
+    padding: 12px 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.textarea{
+    width: 100%;
+    height: 90px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.map{
+    width: 500px;
+    height: 70vh;
+    margin-bottom: 20px;
+}
+.contactus{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap-reverse;
+}
+#btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-image:linear-gradient(to bottom ,rgb(103, 172, 246),rgb(9, 46, 160));
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media (max-width:450px){
+    .contactus_form{
+        width: 300px;
+    }
+    .inputfield{
+        width: 90%;
+    }
+    .map{
+        width: 300px;
+        height: 50vh;
+      
+    }
+    .getintouch_details h6{
+      padding: 0px;
+      margin: 13px;
+    }
+    .contactus_header h3{
+        margin-top: 70px;
+        margin-bottom: 7px;
+    }
+    
+}

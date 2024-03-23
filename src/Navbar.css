@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lemon&family=Oswald:wght@600&family=Phudu:wght@300&family=Poppins&family=Protest+Riot&family=Protest+Strike&family=Russo+One&family=Satisfy&display=swap');
+.navbar{
+    height: 5%;
+    display: flex;
+    position: fixed;
+    z-index: 10; 
+    background-color: white;
+    width: 98%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 12px 12px rgba(0, 0, 0,0.1);
+    padding: 25px;
+}
+#logo_image{
+    height: 77px;
+    width: 80px;
+    
+}
+.blue{
+    color:rgb(12, 112, 218);
+}
+.black{
+    color: black;
+}
+.normal{
+    color: #555;
+}
+.nav_logo{
+    display: flex;
+    color:rgb(12, 112, 218);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'PT Serif', serif;
+    font-weight: bolder;
+    font-size: 27px;
+    align-items: center;
+    text-align: center;
+}
+.nav_pages{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav_links{
+    text-decoration: none;
+    /* color: #555; */
+    font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  /* transition-property:all;
+  transition-duration: 5s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in; */
+}
+.nav_links:hover{
+    border-bottom: 2.2px solid black;
+    color: black;
+}
+.nav_Authentication{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    
+}
+#nav_btn1{
+    text-decoration: none;
+    color: rgb(12, 112, 218);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+}
+#nav_btn2{
+    text-decoration: none;
+    background-image: linear-gradient(to right ,rgb(54, 141, 233),rgb(9, 46, 160));
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #555;
+}
+.hamburger{
+    display: none;
+}
+.setResponsive_navbar{
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 70%;
+    text-decoration: none;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding-top: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    border: 1px solid black;
+}
+
+@media (min-width:768px) {
+    .setResponsive_navbar{
+        display: none;
+    }
+}
+
+@media (max-width:830px)
+{
+    .hamburger{
+        display: block;
+    }
+    .setResponsive_navbar{
+        display: flex;
+    }
+    .nav_links{
+        display: none;
+    }
+    .nav-authentication {
+    display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    
+    #logo_image{
+        height: 50px;
+        width: 50px;
+    }
+    .navbar{
+        
+       padding-right: 35px;
+        padding-left: 18px;
+    }
+}
+@media (max-width:450px){
+    /* .navbar{
+        width: 100%;
+    } */
+    .nav_logo{
+        font-size: 20px;
+    }
+    .navbar{
+        height: 6%;
+        width: 94%;
+        background-color: #fff;
+       
+    }#logo_image{
+        height: 45px;
+        width: 45px;
+        
+    }
+    .hamburger{
+        height: 25px;
+        
+    }
+    .responsive_navbar{
+        font-size: 12px;
+    }
+}
